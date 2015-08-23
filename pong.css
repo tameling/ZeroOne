@@ -1,0 +1,26 @@
+﻿span {
+    font-style: italic;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: black;
+    color: lightgray;
+}
+.divider {
+    stroke: lightgray;
+    stroke-width: 2;
+    stroke-dasharray: 10, 10;
+}
+.paddle {
+    fill: whitesmoke;
+}
+.score {
+    fill: lightgray;
+    font-size:1000%;
+    font-family: 'Agency FB';
+}
+.ball {
+    fill: whitesmoke;
+}
+

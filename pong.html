@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" style="width:100%;height:100%;background-color:black">
+<head>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Pong</title>
+    <link rel="stylesheet" href="pong.css" type="text/css" />
+    <script src="pong.js"></script>
+</head>
+<body style="overflow:hidden;width:100%;height:100%;background-color:black">
+    <svg id="field" width="100%" height="90%" class="field" viewBox="0 0 1920 1030" preserveAspectRatio="none">
+        <rect class="divider" height="1000" width="1890" x="0" y="0"></rect>
+        <text class="score" id="scoreleft" x="500" y="180">0</text>
+        <text class="score" id="scoreright" x="1360" y="180">0</text>
+        <rect class="ball" id="ball" height="20" width="20" x="0" y="0"/>
+        <rect class="paddle" id="leftpaddle" height=70 width="10" x="100" y="0"/>
+        <line class="divider" x1="960" y1="100" x2="960" y2="900"/>
+        <rect class="paddle" id="rightpaddle" height=70 width="10" x="1820" y="0"/>
+    </svg>
+    <div id="messages" style="background-color:black">Welcome to Pong... Use your up/down keys, mouse wheel/touchpad or gestures to control the left paddle.</div>
+</body>
+</html>

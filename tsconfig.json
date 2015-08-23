@@ -1,0 +1,6 @@
+{
+	"compilerOptions": {
+		"out": "pong.js",
+		"target": "ES5"
+	}
+}
